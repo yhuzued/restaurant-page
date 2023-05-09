@@ -9,6 +9,6 @@ export default function navbar () {
     ul.append(li)
   })
 
-  const content = document.querySelector('#content')
-  content.append(ul)
+  const nav = document.querySelector('nav')
+  nav.append(ul)
 }
